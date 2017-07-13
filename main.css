@@ -1,0 +1,63 @@
+body {
+  font-family: 'Share', Helvetica, serif;
+}
+
+header {
+  padding: 20px 0 20px 0;
+}
+
+header .row {
+  display: flex;
+  align-items: center;
+}
+
+header nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+header h1 {
+  margin: 0;
+}
+
+header p {
+  border-bottom: 1px solid black;
+  padding: 0 10px 0 10px;
+  margin: 0;
+}
+
+.jumbotron {
+  background-image: url('jumbotron.jpg');
+}
+
+.jumbotron h2 {
+  font-size: 30px;
+  color: white;
+}
+
+.jumbotron h3 {
+  font-size: 20px;
+  color: white;
+}
+
+footer p {
+  padding: 0 20px;
+  margin: 20px 0 20px 0;
+}
+
+footer ul.col-sm-10 {
+  list-style: none;
+  margin: 0;
+}
+
+footer li.col-sm-1 {
+  padding: 0;
+  float: right;
+}
+
+img {
+  display: inline-flex;
+  justify-content: flex-end;
+  padding: 0 10px;
+  margin: 20px 0 20px 0;
+}
