@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
 
   <meta charset="utf-8">
@@ -8,6 +8,7 @@
   <link href="bootstrap-theme.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Share" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="main.css">
+  <!--<link rel="stylesheet" href="/css/media-responsive.css">-->
 
 </head>
 
@@ -20,16 +21,13 @@
       </h1>
       <nav class="col-sm-6">
         <p>
-          Lista de precios
-        </p>
-        <p>
           Gaming
         </p>
         <p>
-          Ofertas del mes
+          Ofertas
         </p>
         <p>
-          Contacte con nosotros
+          Contacto
         </p>
       </nav>
     </div>
@@ -46,31 +44,75 @@
 
   <section class="container">
     <div class="row">
-
-      <figure class="col-sm-6" id="laptops"> <!--Primera columna de laptops-->
+      <div class="col-sm-2">
+      </div>
+      <figure class="col-sm-push-6" id="laptops"> <!--Primera columna de laptops-->
         <p id="modelo">ACER 57RB Ci5 P 15.6" Gris</p>
         <img src="laptops/acer.png" class="center-block img-responsive" id="laptops">
-        <p></p>
-        <p id="modelo">OMEN AX201 Ci5 15" Negro</p>
-        <img src="laptops/omen.png" class="center-block img-responsive" id="laptops">
+        <p>
+          Referencia -	E5-575G-57RB<br>
+          Procesador -	Intel Core i5 7200U a 2.5GHz<br>
+          Sistema Operativo -	Windows 10<br>
+          Disco Duro PC -	1 TB<br>
+          Memoria RAM -	8 GB<br>
+          Tamaño de Pantalla - 15.6 Pulgadas<br>
+          Resolución Pantalla -	HD<br>
+          Tarjeta de Video -	Nvidia GeForce 940MX 1GB DDR5
+        </p>
+        <p id="precio">$ 1.599.000</p>
       </figure>
 
-      <figure class="col-sm-6" id="laptops"> <!--Segunda columna de laptops-->
+      <figure class="col-sm-push-6" id="laptops"> <!--Segunda columna de laptops-->
         <p id="modelo">ASUS X441UA i5 14" Negro/Dorado</p>
         <img src="laptops/asus.png" class="center-block img-responsive" id="laptops">
         <p>
           Referencia -	X441UA-GA123T<br>
           Procesador -	Intel® Core i5-7200U a 2.5GHz<br>
-          Generación Procesador -	Intel® 7ta Generación<br>
           Sistema Operativo -	Windows 10<br>
           Disco Duro - 1 TB<br>
           Memoria RAM -	8 GB<br>
           Tamaño de Pantalla - 14 Pulgadas<br>
           Resolución Pantalla -	HD<br>
+          Tarjeta de Video -	Integrada
         </p>
         <p id="precio">$ 1.849.000</p>
-        <p id="modelo">LEGION Y520 Ci5 15.6" Negro</p>
+      </figure>
+
+
+
+      <figure class="col-sm-pull-6" id="laptops">
+        <p id="modelo">HP OMEN AX201 Ci5 15" Negro</p>
+        <img src="laptops/omen.png"  class="center-block img-responsive" id="laptops">
+        <p>
+          Referencia - 15-AX201LA<br>
+          Procesador - INTEL Core i5 7300HQ QC a 2.5GHz<br>
+          Sistema Operativo - Windows 10 Home<br>
+          Tarjeta Gráfica - Nvidia GeForce GTX 1050 GDDR5 de 4GB<br>
+          Disco Duro - 1TB<br>
+          Memoria RAM - 8 GB<br>
+          Tamaño de Pantalla - 15.6"<br>
+          Resolución Pantalla - Full HD
+        </p>
+        <p id="precio">$ 2.999.000</p>
+      </figure>
+
+      <div class="col-sm-2">
+      </div>
+
+      <figure class="col-sm-pull-6" id="laptops">
+        <p id="modelo">LENOVO LEGION Y520 Ci5 15.6" Negro</p>
         <img src="laptops/legion.png" class="center-block img-responsive" id="laptops">
+        <p>
+          Referencia - Y520-15IKBN<br>
+          Procesador - INTEL Core i5 7300HQ a 3.5GHz<br>
+          Sistema Operativo - Windows 10 Home<br>
+          Tarjeta Gráfica - Nvidia GeForce GTX 1060 GDDR5 de 3GB<br>
+          Disco Duro - 1TB<br>
+          Memoria RAM - 8 GB<br>
+          Tamaño de Pantalla - 15.6"<br>
+          Resolución Pantalla - Full HD
+        </p>
+        <p id="precio">$ 3.299.000</p>
       </figure>
 
     </div>
@@ -78,17 +120,22 @@
 
   <footer class="container">
     <div class="row">
+      <div class="col-sm-1">
+      </div>
 
-      <p class="col-sm-2" id="copyright">&copy; 2017 CompuStore</p>
+      <p class="col-xs-5" id="copyright">&copy; 2017 CompuStore</p>
 
-      <ul class="col-sm-9" id="listaderedes">
-        <li class="col-sm-1" id="redes">
+      <div class="col-sm-3">
+      </div>
+
+      <ul class="col-sm-5" id="listaderedes">
+        <li class="col-sm-2" id="redes">
           <img src="icons/facebook.png" id="redes">
         </li>
-        <li class="col-sm-1" id="redes">
+        <li class="col-sm-2" id="redes">
           <img src="icons/instagram.png" id="redes">
         </li>
-        <li class="col-sm-1" id="redes">
+        <li class="col-sm-2" id="redes">
           <img src="icons/twitter.png" id="redes">
         </li>
       </ul>

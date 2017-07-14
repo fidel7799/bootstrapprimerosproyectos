@@ -1,5 +1,7 @@
+
 body {
   font-family: 'Share', Helvetica, serif;
+  background: url('background.jpeg') no-repeat fixed;
 }
 
 header {
@@ -18,13 +20,16 @@ header nav {
 
 header h1 {
   margin: 0;
+  color: white;
 }
 
 header p {
   font-size: 15px;
   border-bottom: 1px solid black;
+  border right: 0.5px solid black;
   padding: 0 10px 0 10px;
   margin: 0;
+  color: white;
 }
 
 .jumbotron {
@@ -50,35 +55,49 @@ header p {
 figure p#modelo {
   text-align: center;
   font-size: 20px;
+  color: white;
+  margin-top: 14px;
+}
+
+figure {
+  display: inline-block;
 }
 
 figure p#precio {
   font-size: 25px;
   color: red;
+  padding: 5px;
+}
+
+figure#laptops {
+  border: 1px solid black;
+  margin: 3px 10px 10px 3px;
+  justify-content: center;
 }
 
 figure p {
   text-align: center;
+  color: white;
 }
 
 img#laptops {
   display: block;
-  width: 300px;
-  border: 0 0 0 0;
+  width: 400px;
+  margin-bottom: 15px;
 }
 
 footer p#copyright {
   padding: 0 20px;
   margin-top: 20px;
-  margin-left: 20px;
-  margin-right: 0px;
+  margin-left: 0;
+  margin-right: 0;
   margin-bottom: 20px;
 }
 
 footer ul#listaderedes {
   list-style: none;
-  margin-right: 20px;
-  padding-left: 20px;
+  margin-right: 0;
+  padding-left: 0;
   padding-right: 0;
 }
 
@@ -92,4 +111,16 @@ img#redes {
   justify-content: flex-end;
   padding: 0 10px;
   margin: 20px 0 0 0;
+}
+
+@media (min-width: 720px) {
+  header.p {
+    display: inline-flex;
+  }
+}
+
+@media (min-width: 720px) {
+  .jumbotron {
+
+  }
 }
