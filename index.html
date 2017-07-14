@@ -44,24 +44,32 @@
 
   <section class="container">
     <div class="row">
-      <div class="col-sm-2">
-      </div>
-      <figure class="col-sm-push-6" id="laptops"> <!--Primera columna de laptops-->
-        <p id="modelo">ACER 57RB Ci5 P 15.6" Gris</p>
-        <img src="laptops/acer.png" class="center-block img-responsive" id="laptops">
-        <p>
-          Referencia -	E5-575G-57RB<br>
-          Procesador -	Intel Core i5 7200U a 2.5GHz<br>
-          Sistema Operativo -	Windows 10<br>
-          Disco Duro PC -	1 TB<br>
-          Memoria RAM -	8 GB<br>
-          Tamaño de Pantalla - 15.6 Pulgadas<br>
-          Resolución Pantalla -	HD<br>
-          Tarjeta de Video -	Nvidia GeForce 940MX 1GB DDR5
-        </p>
-        <p id="precio">$ 1.599.000</p>
-      </figure>
+      <!-- <div class="col-sm-2">   
+      ACA ESTE DIV NO ESTA HACIENDO NADA, ESTA VACIO
+      </div> -->
 
+
+      <!-- LAS COLUMNAS SE UTLIZAN DE ESTA FORMA PARA QUE SEA DINAMICO SEGUN LA PANTALLA -->
+      <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+        <figure class="col-sm-push-2" id="laptops"> <!--Primera columna de laptops-->
+          <p id="modelo">ACER 57RB Ci5 P 15.6" Gris</p>
+          <img src="laptops/acer.png" class="center-block img-responsive" id="laptops">
+          <p>
+            Referencia -	E5-575G-57RB<br>
+            Procesador -	Intel Core i5 7200U a 2.5GHz<br>
+            Sistema Operativo -	Windows 10<br>
+            Disco Duro PC -	1 TB<br>
+            Memoria RAM -	8 GB<br>
+            Tamaño de Pantalla - 15.6 Pulgadas<br>
+            Resolución Pantalla -	HD<br>
+            Tarjeta de Video -	Nvidia GeForce 940MX 1GB DDR5
+          </p>
+          <p id="precio">$ 1.599.000</p>
+        </figure>
+      </div>
+      <!-- LAS COLUMNAS SE UTLIZAN DE ESTA FORMA PARA QUE SEA DINAMICO SEGUN LA PANTALLA -->
+
+      <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
       <figure class="col-sm-push-6" id="laptops"> <!--Segunda columna de laptops-->
         <p id="modelo">ASUS X441UA i5 14" Negro/Dorado</p>
         <img src="laptops/asus.png" class="center-block img-responsive" id="laptops">
@@ -77,9 +85,10 @@
         </p>
         <p id="precio">$ 1.849.000</p>
       </figure>
+      </div>
 
 
-
+      <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
       <figure class="col-sm-pull-6" id="laptops">
         <p id="modelo">HP OMEN AX201 Ci5 15" Negro</p>
         <img src="laptops/omen.png"  class="center-block img-responsive" id="laptops">
@@ -95,10 +104,13 @@
         </p>
         <p id="precio">$ 2.999.000</p>
       </figure>
-
-      <div class="col-sm-2">
       </div>
 
+      <!-- <div class="col-sm-2">
+      ESTOS DIVS PARA CORRER ESPACIOS SON MALA PRACTICA
+      </div> -->
+
+      <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
       <figure class="col-sm-pull-6" id="laptops">
         <p id="modelo">LENOVO LEGION Y520 Ci5 15.6" Negro</p>
         <img src="laptops/legion.png" class="center-block img-responsive" id="laptops">
@@ -114,7 +126,7 @@
         </p>
         <p id="precio">$ 3.299.000</p>
       </figure>
-
+      </div>
     </div>
   </section>
 
