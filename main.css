@@ -70,7 +70,7 @@ figure p#precio {
 }
 
 figure#laptops {
-  border: 1px solid black;
+  border: 1px solid white;
   margin: 3px 10px 10px 3px;
   justify-content: center;
 }
