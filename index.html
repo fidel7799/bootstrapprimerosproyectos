@@ -27,7 +27,7 @@
           Ofertas
         </p>
         <p>
-          Contacto
+          <a href="contacto/contact.html" id="contacto">Contacto</a>
         </p>
       </nav>
     </div>
@@ -35,17 +35,18 @@
 
   <section class="container-fluid">
     <div class="jumbotron">
-      <div class="row text-center">
+      <div class="row">
         <h2>Lo último en tecnología portátil</h2>
         <h3>Si usted quiere disfrutar de la velocidad <br>está en el sitio correcto</h3>
       </div>
     </div>
+    <img src="icons/bitcoin-accepted.png" class="bitcoin">
   </section>
 
   <section class="container">
     <div class="row">
-      <div class="col-sm-2">
-      </div>
+
+      <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
       <figure class="col-sm-push-6" id="laptops"> <!--Primera columna de laptops-->
         <p id="modelo">ACER 57RB Ci5 P 15.6" Gris</p>
         <img src="laptops/acer.png" class="center-block img-responsive" id="laptops">
@@ -59,9 +60,11 @@
           Resolución Pantalla -	HD<br>
           Tarjeta de Video -	Nvidia GeForce 940MX 1GB DDR5
         </p>
-        <p id="precio">$ 1.599.000</p>
+        <a href="" data-toggle="modal" data-target="#producto1"><p id="precio"><img src="icons/compra.png" />$ 1.599.000</p></a>
       </figure>
+      </div>
 
+      <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
       <figure class="col-sm-push-6" id="laptops"> <!--Segunda columna de laptops-->
         <p id="modelo">ASUS X441UA i5 14" Negro/Dorado</p>
         <img src="laptops/asus.png" class="center-block img-responsive" id="laptops">
@@ -75,11 +78,11 @@
           Resolución Pantalla -	HD<br>
           Tarjeta de Video -	Integrada
         </p>
-        <p id="precio">$ 1.849.000</p>
+        <a href="compra/compraasus.html"><p id="precio"><img src="icons/compra.png" />$ 1.849.000</p></a>
       </figure>
+      </div>
 
-
-
+      <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
       <figure class="col-sm-pull-6" id="laptops">
         <p id="modelo">HP OMEN AX201 Ci5 15" Negro</p>
         <img src="laptops/omen.png"  class="center-block img-responsive" id="laptops">
@@ -93,12 +96,11 @@
           Tamaño de Pantalla - 15.6"<br>
           Resolución Pantalla - Full HD
         </p>
-        <p id="precio">$ 2.999.000</p>
+        <a href="compra/compraomen.html"><p id="precio"><img src="icons/compra.png" />$ 2.999.000</p></a>
       </figure>
-
-      <div class="col-sm-2">
       </div>
 
+      <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
       <figure class="col-sm-pull-6" id="laptops">
         <p id="modelo">LENOVO LEGION Y520 Ci5 15.6" Negro</p>
         <img src="laptops/legion.png" class="center-block img-responsive" id="laptops">
@@ -112,10 +114,9 @@
           Tamaño de Pantalla - 15.6"<br>
           Resolución Pantalla - Full HD
         </p>
-        <p id="precio">$ 3.299.000</p>
+        <a href="compra/compralegion.html"><p id="precio"><img src="icons/compra.png" />$ 3.299.000</p></a>
       </figure>
-
-    </div>
+      </div>
   </section>
 
   <footer class="container">
@@ -142,5 +143,35 @@
 
   </footer>
 
+  <!-- modal Precio Producto 1 -->
+<div id="producto1" class="modal fade">
+<div class="modal-dialog" role="document">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h5 class="modal-title">Modal title</h5>
+      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+      </button>
+    </div>
+    <div class="modal-body">
+      <div class="form-group">
+        <label for="">Nombre</label>
+        <input type="text" class="form-control" id="" placeholder="">
+        <p class="help-block">nombre importante</p>
+      </div>
+    </div>
+    <div class="modal-footer">
+      <button type="button" class="btn btn-primary">Save changes</button>
+      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+    </div>
+  </div>
+</div>
+</div>
+  <!-- Fin -->
+
+<!-- script´s generales -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<!-- fin -->
   </body>
   </html>

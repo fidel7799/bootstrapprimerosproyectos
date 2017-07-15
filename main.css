@@ -32,6 +32,10 @@ header p {
   color: white;
 }
 
+#contacto {
+  color: white;
+}
+
 .jumbotron {
   display: flex;
   align-items: center;
@@ -45,11 +49,19 @@ header p {
   font-weight: bold;
   font-size: 30px;
   color: white;
+  margin-top: -10px;
 }
 
 .jumbotron h3 {
   font-size: 20px;
   color: white;
+}
+
+.bitcoin {
+  display: block;
+  float: right;
+  margin-top: -120px;
+  margin-right: 12px;
 }
 
 figure p#modelo {
@@ -64,7 +76,7 @@ figure {
 }
 
 figure p#precio {
-  font-size: 25px;
+  font-size: 30px;
   color: red;
   padding: 5px;
 }
