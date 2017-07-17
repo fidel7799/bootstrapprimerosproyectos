@@ -27,7 +27,7 @@
           Ofertas
         </p>
         <p>
-          <a href="contacto/contact.html" id="contacto">Contacto</a>
+          <a href="" data-toggle="modal" data-target="#contacto1" id="contacto">Contacto</a>
         </p>
       </nav>
     </div>
@@ -46,7 +46,7 @@
   <section class="container">
     <div class="row">
       <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-      <figure class="col-sm-push-6" id="laptops"> <!--Primera columna de laptops-->
+      <figure class="col-sm-push-6" id="laptops">
         <p id="modelo">ACER 57RB Ci5 P 15.6" Gris</p>
         <img src="laptops/acer.png" class="center-block img-responsive" id="laptops">
         <p>
@@ -64,7 +64,7 @@
       </div>
 
       <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-      <figure class="col-sm-push-6" id="laptops"> <!--Segunda columna de laptops-->
+      <figure class="col-sm-push-6" id="laptops">
         <p id="modelo">ASUS X441UA i5 14" Negro/Dorado</p>
         <img src="laptops/asus.png" class="center-block img-responsive" id="laptops">
         <p>
@@ -77,7 +77,7 @@
           Resolución Pantalla -	HD<br>
           Tarjeta de Video -	Integrada
         </p>
-        <a href="compra/compraasus.html"><p id="precio"><img src="icons/compra.png" />$ 1.849.000</p></a>
+        <a href="" data-toggle="modal" data-target="#producto2"><p id="precio"><img src="icons/compra.png" />$ 1.849.000</p></a>
       </figure>
       </div>
 
@@ -95,7 +95,7 @@
           Tamaño de Pantalla - 15.6"<br>
           Resolución Pantalla - Full HD
         </p>
-        <a href="compra/compraomen.html"><p id="precio"><img src="icons/compra.png" />$ 2.999.000</p></a>
+        <a href="" data-toggle="modal" data-target="#producto3"><p id="precio"><img src="icons/compra.png" />$ 2.999.000</p></a>
       </figure>
       </div>
 
@@ -113,7 +113,7 @@
           Tamaño de Pantalla - 15.6"<br>
           Resolución Pantalla - Full HD
         </p>
-        <a href="compra/compralegion.html"><p id="precio"><img src="icons/compra.png" />$ 3.299.000</p></a>
+        <a href="" data-toggle="modal" data-target="#producto4"><p id="precio"><img src="icons/compra.png" />$ 3.299.000</p></a>
       </figure>
       </div>
   </section>
@@ -147,19 +147,143 @@
 <div class="modal-dialog" role="document">
   <div class="modal-content">
     <div class="modal-header">
-      <h5 class="modal-title">Modal title</h5>
+      <h3 class="modal-title" id="modelo1">ACER 57RB Ci5 P 15.6" Gris</h3>
       <button type="button" class="close" data-dismiss="modal" aria-label="Close">
         <span aria-hidden="true">&times;</span>
       </button>
     </div>
     <div class="modal-body">
-      <p>Modal body text goes here.</p>
+      <p>Costo: $ 1.359.000 + IVA<br>
+
+        Costo total: <strong id="total">$ 1.599.000</strong><br>
+
+        Desea usted pagar con:</p>
+
+      <a href="#demo" data-toggle="collapse"><input type="radio" name="formapago" value="VISA/MASTERCARD"></a> VISA/MASTERCARD <img src="icons/credit-card.png" /><br>
+      <div id="demo" class="collapse">
+        Lorem ipsum dolor text....
+      </div>
+      <input type="radio" name="formapago" value="Efecty"> BitCoin <img src="icons/bitcoin.png" /><br>
+      <input type="radio" name="formapago" value="Efecty"> Efecty <img src="icons/notes.png" />
     </div>
     <div class="modal-footer">
-      <button type="button" class="btn btn-primary">Save changes</button>
-      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      <button type="button" class="btn btn-primary">Comprar</button>
+      <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
     </div>
   </div>
+</div>
+</div>
+<!-- FIN -->
+
+<!-- modal Precio Producto 2 -->
+<div id="producto2" class="modal fade">
+<div class="modal-dialog" role="document">
+<div class="modal-content">
+  <div class="modal-header">
+    <h3 class="modal-title" id="modelo1">ASUS X441UA i5 14" Negro/Dorado</h3>
+    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+      <span aria-hidden="true">&times;</span>
+    </button>
+  </div>
+  <div class="modal-body">
+    <p>Costo: $ 1.700.000 + IVA<br>
+
+      Costo total: <strong id="total">$ 1.849.000</strong><br>
+
+      Desea usted pagar con:</p>
+
+    <input type="radio" name="formapago" value="VISA/MASTERCARD"> VISA/MASTERCARD <img src="icons/credit-card.png" /><br>
+    <input type="radio" name="formapago" value="Efecty"> BitCoin <img src="icons/bitcoin.png" /><br>
+    <input type="radio" name="formapago" value="Efecty"> Efecty <img src="icons/notes.png" />
+  </div>
+  <div class="modal-footer">
+    <button type="button" class="btn btn-primary">Comprar</button>
+    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
+  </div>
+</div>
+</div>
+</div>
+<!-- FIN -->
+
+<!-- modal Precio Producto 3 -->
+<div id="producto3" class="modal fade">
+  <div class="modal-dialog" role="document">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h3 class="modal-title" id="modelo1">HP OMEN AX201 Ci5 15" Negro</h3>
+      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+      </button>
+    </div>
+    <div class="modal-body">
+      <p>Costo: $ 2.789.000 + IVA<br>
+
+        Costo total: <strong id="total">$ 2.999.000</strong><br>
+
+        Desea usted pagar con:</p>
+
+      <input type="radio" name="formapago" value="VISA/MASTERCARD"> VISA/MASTERCARD <img src="icons/credit-card.png" /><br>
+      <input type="radio" name="formapago" value="Efecty"> BitCoin <img src="icons/bitcoin.png" /><br>
+      <input type="radio" name="formapago" value="Efecty"> Efecty <img src="icons/notes.png" />
+    </div>
+    <div class="modal-footer">
+      <button type="button" class="btn btn-primary">Comprar</button>
+      <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
+    </div>
+  </div>
+  </div>
+</div>
+<!-- FIN -->
+
+<!-- modal Precio Producto 4 -->
+<div id="producto4" class="modal fade">
+  <div class="modal-dialog" role="document">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h3 class="modal-title" id="modelo1">LENOVO LEGION Y520 Ci5 15.6" Negro</h3>
+      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+      </button>
+    </div>
+    <div class="modal-body">
+      <p>Costo: $ 3.139.000 + IVA<br>
+
+        Costo total: <strong id="total">$ 3.299.000</strong><br>
+
+        Desea usted pagar con:</p>
+
+      <input type="radio" name="formapago" value="VISA/MASTERCARD"> VISA/MASTERCARD <img src="icons/credit-card.png" /><br>
+      <input type="radio" name="formapago" value="Efecty"> BitCoin <img src="icons/bitcoin.png" /><br>
+      <input type="radio" name="formapago" value="Efecty"> Efecty <img src="icons/notes.png" />
+    </div>
+    <div class="modal-footer">
+      <button type="button" class="btn btn-primary">Comprar</button>
+      <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
+    </div>
+  </div>
+  </div>
+</div>
+<!-- FIN -->
+
+<!-- modal Contacto -->
+<div id="contacto1" class="modal fade">
+<div class="modal-dialog" role="document">
+<div class="modal-content">
+  <div class="modal-header">
+    <h2 class="modal-title" id="modelo1">CONTACTO</h2>
+    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+      <span aria-hidden="true">&times;</span>
+    </button>
+  </div>
+  <div class="modal-body">
+    <h4 id="donde">Para mayor información contactarse al:<br>
+      +57 318 769 4409<br>
+      o acerquese a nuestras oficinas en la carrera 48 #101-65</h4>
+  </div>
+  <div class="modal-footer">
+    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
+  </div>
+</div>
 </div>
 </div>
 <!-- FIN -->
